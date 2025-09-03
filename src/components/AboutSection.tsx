@@ -29,7 +29,7 @@ const AboutSection = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Career Coach & Founder</h3>
                   <p className="text-muted-foreground">
-                    Founder of Salary Spike Hub, helping IT professionals achieve 2x salary hikes 
+                    Founder of Career Spike Hub, helping IT professionals achieve 2x salary hikes 
                     and global career breakthroughs through strategic LinkedIn branding and AI-powered tools.
                   </p>
                 </div>

@@ -18,7 +18,7 @@ const SuccessStoriesSection = () => {
       name: "Priya Patel",
       role: "AI Product Manager",
       company: "Google Cloud",
-      location: "London, UK",
+      location: "Mumbai, India",
       salaryIncrease: "12 LPA → 45 LPA",
       image: "👩‍💼",
       story: "From struggling with career direction to leading AI products at Google Cloud. Shweta's mentorship and AI Agents masterclass completely transformed my trajectory.",
@@ -28,7 +28,7 @@ const SuccessStoriesSection = () => {
       name: "Amit Kumar",
       role: "Tech Entrepreneur",
       company: "AI Startup Founder",
-      location: "San Francisco, USA",
+      location: "Dubai, UAE",
       salaryIncrease: "Built ₹2Cr ARR",
       image: "🚀",
       story: "Started as a confused developer, now running my own AI automation company generating ₹2Cr ARR. Shweta's guidance on AI agents and business strategy was game-changing.",
@@ -108,7 +108,7 @@ const SuccessStoriesSection = () => {
         {/* Stats Summary */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
           <div className="text-center p-6 bg-muted/50 rounded-lg">
-            <div className="text-3xl font-bold text-primary mb-2">100K+</div>
+            <div className="text-3xl font-bold text-primary mb-2">1000+</div>
             <div className="text-sm text-muted-foreground">Professionals Helped</div>
           </div>
           <div className="text-center p-6 bg-muted/50 rounded-lg">
@@ -116,7 +116,7 @@ const SuccessStoriesSection = () => {
             <div className="text-sm text-muted-foreground">Average Salary Increase</div>
           </div>
           <div className="text-center p-6 bg-muted/50 rounded-lg">
-            <div className="text-3xl font-bold text-primary mb-2">50+</div>
+            <div className="text-3xl font-bold text-primary mb-2">3+</div>
             <div className="text-sm text-muted-foreground">Countries Reached</div>
           </div>
           <div className="text-center p-6 bg-muted/50 rounded-lg">

@@ -80,7 +80,7 @@ const CommunitySection = () => {
                   <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
                     <Users className="w-5 h-5 text-primary-foreground" />
                   </div>
-                  <h3 className="text-lg font-semibold text-foreground">Salary Spike Hub Community</h3>
+                  <h3 className="text-lg font-semibold text-foreground">Career Spike Hub Community</h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
                   An exclusive ecosystem where ambitious IT professionals share strategies, 

@@ -24,8 +24,10 @@ const HeroSection = () => {
               <Button variant="hero" size="xl" className="shadow-medium">
                 Join My AI Agents Masterclass
               </Button>
-              <Button variant="heroOutline" size="xl">
-                Book a Strategy Call
+              <Button variant="heroOutline" size="xl" asChild>
+                <a href="https://topmate.io/shweta_gupta" target="_blank" rel="noopener noreferrer">
+                  Book a Strategy Call
+                </a>
               </Button>
             </div>
             
@@ -37,7 +39,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>100K+ Professionals Helped</span>
+                <span>1000+ Professionals helped</span>
               </div>
             </div>
           </div>

@@ -41,17 +41,25 @@ const Footer = () => {
 
             {/* Social Links */}
             <div className="flex items-center gap-4">
-              <Button variant="ghost" size="icon" className="text-secondary-foreground/80 hover:text-secondary-foreground hover:bg-secondary-foreground/10">
-                <Linkedin className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="text-secondary-foreground/80 hover:text-secondary-foreground hover:bg-secondary-foreground/10" asChild>
+                <a href="https://www.linkedin.com/in/shwetagupta2021/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="text-secondary-foreground/80 hover:text-secondary-foreground hover:bg-secondary-foreground/10">
-                <Instagram className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="text-secondary-foreground/80 hover:text-secondary-foreground hover:bg-secondary-foreground/10" asChild>
+                <a href="https://instagram.com/careergrowthwithshweta" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="text-secondary-foreground/80 hover:text-secondary-foreground hover:bg-secondary-foreground/10">
-                <Youtube className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="text-secondary-foreground/80 hover:text-secondary-foreground hover:bg-secondary-foreground/10" asChild>
+                <a href="https://www.youtube.com/@coachshwetagupta" target="_blank" rel="noopener noreferrer">
+                  <Youtube className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="text-secondary-foreground/80 hover:text-secondary-foreground hover:bg-secondary-foreground/10">
-                <Mail className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="text-secondary-foreground/80 hover:text-secondary-foreground hover:bg-secondary-foreground/10" asChild>
+                <a href="mailto:connect@coachshwetagupta.com">
+                  <Mail className="w-5 h-5" />
+                </a>
               </Button>
             </div>
 
@@ -140,10 +148,10 @@ const Footer = () => {
               Professional inquiries and partnership opportunities
             </p>
             <a
-              href="mailto:hello@shwetaguptacoaching.com"
+              href="mailto:connect@coachshwetagupta.com"
               className="text-primary font-medium hover:underline"
             >
-              hello@shwetaguptacoaching.com
+              connect@coachshwetagupta.com
             </a>
           </div>
         </div>
