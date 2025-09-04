@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import professionalPhoto from "@/assets/shweta-professional-photo.jpg";
+const professionalPhoto = "/lovable-uploads/9a467611-1566-4b3e-a88c-3959b4116a60.png";
 
 const HeroSection = () => {
   return (
