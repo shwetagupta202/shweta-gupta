@@ -50,25 +50,13 @@ const CommunitySection = () => {
             <div className="grid grid-cols-2 gap-6">
               <Card className="text-center p-6 border-primary/20">
                 <CardContent className="space-y-2">
-                  <div className="text-3xl font-bold text-primary">5,000+</div>
-                  <div className="text-sm text-muted-foreground">Active Members</div>
-                </CardContent>
-              </Card>
-              <Card className="text-center p-6 border-primary/20">
-                <CardContent className="space-y-2">
                   <div className="text-3xl font-bold text-primary">95%</div>
                   <div className="text-sm text-muted-foreground">Success Rate</div>
                 </CardContent>
               </Card>
               <Card className="text-center p-6 border-primary/20">
                 <CardContent className="space-y-2">
-                  <div className="text-3xl font-bold text-primary">50+</div>
-                  <div className="text-sm text-muted-foreground">Countries</div>
-                </CardContent>
-              </Card>
-              <Card className="text-center p-6 border-primary/20">
-                <CardContent className="space-y-2">
-                  <div className="text-3xl font-bold text-primary">₹2Cr+</div>
+                  <div className="text-3xl font-bold text-primary">₹50 Lakh+</div>
                   <div className="text-sm text-muted-foreground">Salary Increases</div>
                 </CardContent>
               </Card>

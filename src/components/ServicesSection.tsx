@@ -70,9 +70,6 @@ const ServicesSection = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="ghost" className="w-full mt-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                  Learn More
-                </Button>
               </CardContent>
             </Card>
           ))}

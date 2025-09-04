@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { BookOpen, Briefcase, Heart, Users } from "lucide-react";
-import bookImage from "@/assets/i-can-coach-book.jpg";
+const bookImage = "/lovable-uploads/f84e4499-7863-400c-9d71-126687488a49.png";
 
 const AboutSection = () => {
   return (
@@ -56,7 +56,7 @@ const AboutSection = () => {
                   <h3 className="font-semibold text-foreground mb-2">Mission-Driven Leader</h3>
                   <p className="text-muted-foreground">
                     Passionate about AI Agents, automation, and redefining recruitment & productivity 
-                    systems to help 100,000 professionals become future-proof.
+                    systems to help visionary professionals become future-proof.
                   </p>
                 </div>
               </div>
