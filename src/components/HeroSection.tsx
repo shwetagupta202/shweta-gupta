@@ -21,8 +21,10 @@ const HeroSection = () => {
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl" className="shadow-medium">
-                Join My AI Agents Masterclass
+              <Button variant="hero" size="xl" className="shadow-medium" asChild>
+                <a href="https://learn.coachshwetagupta.com/l/1a9046b2e2" target="_blank" rel="noopener noreferrer">
+                  Join My AI Agents Masterclass
+                </a>
               </Button>
               <Button variant="heroOutline" size="xl" asChild>
                 <a href="https://topmate.io/shweta_gupta" target="_blank" rel="noopener noreferrer">

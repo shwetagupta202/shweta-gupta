@@ -71,16 +71,11 @@ const Footer = () => {
               <p className="text-sm text-secondary-foreground/80 mb-4">
                 Get exclusive strategies and insights delivered to your inbox.
               </p>
-              <div className="flex gap-2">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-3 py-2 bg-background text-foreground rounded-md text-sm"
-                />
-                <Button variant="default" size="sm">
-                  Subscribe
-                </Button>
-              </div>
+              <Button variant="default" size="sm" asChild>
+                <a href="https://www.linkedin.com/newsletters/future-proof-career-digest-7302207305826099202" target="_blank" rel="noopener noreferrer">
+                  Subscribe to Newsletter
+                </a>
+              </Button>
             </div>
           </div>
 
