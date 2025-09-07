@@ -25,24 +25,24 @@ const SuccessStoriesSection = () => {
       achievement: "Global Career Move"
     },
     {
-      name: "Amit Kumar",
-      role: "Tech Entrepreneur",
-      company: "AI Startup Founder",
-      location: "Dubai, UAE",
-      salaryIncrease: "Built ₹2Cr ARR",
-      image: "🚀",
-      story: "Started as a confused developer, now running my own AI automation company generating ₹2Cr ARR. Shweta's guidance on AI agents and business strategy was game-changing.",
-      achievement: "Successful Entrepreneur"
+      name: "Vikash Singh",
+      role: "Senior Technical Lead",
+      company: "LTI Mindtree",
+      location: "Chennai, India",
+      salaryIncrease: "9 LPA → 28 LPA",
+      image: "👨‍💼",
+      story: "Working at LTI Mindtree, I was stuck in traditional roles. Shweta's AI agents training and LinkedIn mastery helped me become a technical lead with 3x salary growth.",
+      achievement: "Technical Leadership"
     },
     {
-      name: "Sneha Gupta",
-      role: "Data Science Manager",
-      company: "Amazon Web Services",
-      location: "Seattle, USA",
-      salaryIncrease: "8 LPA → 35 LPA",
-      image: "👩‍🔬",
-      story: "The combination of technical AI skills and personal branding strategies helped me transition from India to leading data science teams at AWS. Incredible transformation!",
-      achievement: "Leadership Role"
+      name: "Anjali Reddy",
+      role: "AI Solutions Architect",
+      company: "LTI Mindtree",
+      location: "Hyderabad, India",
+      salaryIncrease: "14 LPA → 42 LPA",
+      image: "👩‍💻",
+      story: "From a regular developer at LTI Mindtree to AI Solutions Architect. Shweta's guidance on AI automation and career positioning transformed my professional journey completely.",
+      achievement: "AI Specialist"
     }
   ];
 
