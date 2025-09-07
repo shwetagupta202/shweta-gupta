@@ -36,12 +36,12 @@ const SuccessStoriesSection = () => {
     },
     {
       name: "Sneha Gupta",
-      role: "Data Science Manager",
-      company: "Amazon Web Services",
-      location: "Seattle, USA",
-      salaryIncrease: "8 LPA → 35 LPA",
+      role: "Senior Tech Lead",
+      company: "LTI Mindtree",
+      location: "Chennai, India",
+      salaryIncrease: "8 LPA → 28 LPA",
       image: "👩‍🔬",
-      story: "The combination of technical AI skills and personal branding strategies helped me transition from India to leading data science teams at AWS. Incredible transformation!",
+      story: "Shweta's AI automation strategies and LinkedIn optimization helped me secure a leadership role at LTI Mindtree. The interview preparation was exceptional!",
       achievement: "Leadership Role"
     }
   ];
