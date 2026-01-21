@@ -187,8 +187,10 @@ const SuccessStoriesSection = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Button variant="cta" size="xl">
-            Start Your Transformation Journey
+          <Button variant="cta" size="xl" asChild>
+            <a href="https://go.coachshwetagupta.com/" target="_blank" rel="noopener noreferrer">
+              Start Your Transformation Journey
+            </a>
           </Button>
         </div>
       </div>
