@@ -16,6 +16,7 @@ const CTASection = () => {
         "Community access bonus"
       ],
       cta: "Reserve Your Free Spot",
+      ctaLink: "https://ai.coachshwetagupta.com/workshop/",
       variant: "hero" as const,
       badge: "Most Popular"
     },
@@ -31,6 +32,7 @@ const CTASection = () => {
         "Interview preparation checklist"
       ],
       cta: "Download Free Toolkit",
+      ctaLink: "#",
       variant: "heroOutline" as const
     },
     {
@@ -45,6 +47,7 @@ const CTASection = () => {
         "90-day action roadmap"
       ],
       cta: "Book Your Call",
+      ctaLink: "https://topmate.io/shweta_gupta",
       variant: "cta" as const,
       badge: "Limited Spots"
     }
@@ -108,9 +111,12 @@ const CTASection = () => {
                   variant={offer.variant} 
                   size="lg" 
                   className="w-full group-hover:scale-105 transition-transform duration-300"
+                  asChild
                 >
-                  {offer.cta}
-                  <ArrowRight className="w-4 h-4 ml-2" />
+                  <a href={offer.ctaLink} target="_blank" rel="noopener noreferrer">
+                    {offer.cta}
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -130,11 +136,15 @@ const CTASection = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="xl" className="shadow-medium">
-              Start Your Transformation Today
+            <Button variant="hero" size="xl" className="shadow-medium" asChild>
+              <a href="https://go.coachshwetagupta.com/" target="_blank" rel="noopener noreferrer">
+                Start Your Transformation Today
+              </a>
             </Button>
-            <Button variant="outline" size="xl">
-              Schedule a Free Consultation
+            <Button variant="outline" size="xl" asChild>
+              <a href="https://topmate.io/shweta_gupta" target="_blank" rel="noopener noreferrer">
+                Schedule a Free Consultation
+              </a>
             </Button>
           </div>
 

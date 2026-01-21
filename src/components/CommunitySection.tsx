@@ -111,7 +111,7 @@ const CommunitySection = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="xl" asChild>
-              <a href="https://learn.coachshwetagupta.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://go.coachshwetagupta.com/" target="_blank" rel="noopener noreferrer">
                 Join My Community
               </a>
             </Button>
