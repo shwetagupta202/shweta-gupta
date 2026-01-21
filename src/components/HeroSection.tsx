@@ -23,7 +23,7 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
               <Button variant="hero" size="xl" className="shadow-medium" asChild>
                 <a href="https://ai.coachshwetagupta.com/workshop/" target="_blank" rel="noopener noreferrer">
-                  Join Our AI Agent Live Masterclass
+                  Join AI Agent Live Masterclass
                 </a>
               </Button>
               <Button variant="heroOutline" size="xl" asChild>
@@ -33,7 +33,7 @@ const HeroSection = () => {
               </Button>
               <Button variant="hero" size="xl" className="shadow-medium" asChild>
                 <a href="https://go.coachshwetagupta.com/" target="_blank" rel="noopener noreferrer">
-                  Join our AI Agents Domination Community
+                  Join Paid Program
                 </a>
               </Button>
             </div>

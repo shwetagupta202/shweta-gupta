@@ -46,6 +46,37 @@ const SuccessStoriesSection = () => {
     }
   ];
 
+  const communityTestimonials = [
+    {
+      name: "Biswajit Biswal",
+      story: "Grateful to my coach, Shweta Gupta, for the clarity and direction that made all of this possible. What stood out most in this journey was not motivation, but structure. Strong coaching doesn't create dependency, it builds independent thinking."
+    },
+    {
+      name: "Amlesh Kumar",
+      story: "The n8n Telegram Bot learning session conducted by Shweta was extremely insightful and well-structured. She explained complex automation concepts in a simple, practical manner. Overall, it was a highly valuable session."
+    },
+    {
+      name: "Shirish Bhambure",
+      story: "Thank you, Shweta, for the clear and insightful explanation of the basic concepts of Prompt Engineering. Your session also nicely covered the practical usage of OpenRouter as a model integration with LLMs."
+    },
+    {
+      name: "Samyuktha Goud",
+      story: "Your explanation on creating the WhatsApp agent and setting up the WhatsApp Business number was very clear and practical. I understood the real-world flow instead of just theory."
+    },
+    {
+      name: "Aswin Kumar",
+      story: "Session on multi agent workflow creation and execution with breakout sessions. Thanks!"
+    },
+    {
+      name: "Umesh Annegirikar",
+      story: "Session on multi agent workflow creations and executions. Very nice and future accelerating topic it is adding more value to our knowledge. Thanks Shweta!"
+    },
+    {
+      name: "Anshul Dhingra",
+      story: "Another insightful session on creating multi-agents. Breakout rooms idea is a nice way to collaborate with people. Thank you for incorporating this idea."
+    }
+  ];
+
   return (
     <section className="section-padding">
       <div className="container-custom">
@@ -103,6 +134,35 @@ const SuccessStoriesSection = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Community Testimonials */}
+        <div className="mb-16">
+          <h3 className="text-2xl lg:text-3xl font-bold text-foreground text-center mb-8">
+            What Community Members Say
+          </h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {communityTestimonials.map((testimonial, index) => (
+              <Card key={index} className="hover:shadow-medium transition-all duration-300 border-primary/10">
+                <CardContent className="p-6 space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                      <span className="text-primary font-semibold text-sm">
+                        {testimonial.name.split(' ').map(n => n[0]).join('')}
+                      </span>
+                    </div>
+                    <h4 className="font-semibold text-foreground">{testimonial.name}</h4>
+                  </div>
+                  <div className="relative">
+                    <Quote className="w-6 h-6 text-primary/20 absolute -top-1 -left-1" />
+                    <p className="text-muted-foreground text-sm leading-relaxed pl-5 italic">
+                      "{testimonial.story}"
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
 
         {/* Stats Summary */}
