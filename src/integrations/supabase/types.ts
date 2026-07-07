@@ -14,6 +14,48 @@ export type Database = {
   }
   public: {
     Tables: {
+      aiagentdomination_faq_google: {
+        Row: {
+          content: string | null
+          embedding: string | null
+          id: number
+          metadata: Json | null
+        }
+        Insert: {
+          content?: string | null
+          embedding?: string | null
+          id?: number
+          metadata?: Json | null
+        }
+        Update: {
+          content?: string | null
+          embedding?: string | null
+          id?: number
+          metadata?: Json | null
+        }
+        Relationships: []
+      }
+      document_RAG: {
+        Row: {
+          content: string | null
+          embedding: Json | null
+          id: number
+          metadata: Json | null
+        }
+        Insert: {
+          content?: string | null
+          embedding?: Json | null
+          id: number
+          metadata?: Json | null
+        }
+        Update: {
+          content?: string | null
+          embedding?: Json | null
+          id?: number
+          metadata?: Json | null
+        }
+        Relationships: []
+      }
       documents_google: {
         Row: {
           content: string | null
@@ -35,6 +77,24 @@ export type Database = {
         }
         Relationships: []
       }
+      n8n_chat_histories: {
+        Row: {
+          id: number
+          message: Json
+          session_id: string
+        }
+        Insert: {
+          id?: number
+          message: Json
+          session_id: string
+        }
+        Update: {
+          id?: number
+          message?: Json
+          session_id?: string
+        }
+        Relationships: []
+      }
       n8n_chat_histories_google: {
         Row: {
           id: number
@@ -50,6 +110,69 @@ export type Database = {
           id?: number
           message?: Json
           session_id?: string
+        }
+        Relationships: []
+      }
+      tbl_24MayParticipants: {
+        Row: {
+          duration: string | null
+          join_time: string | null
+          leave_time: string | null
+          name: string | null
+          user_email: string | null
+        }
+        Insert: {
+          duration?: string | null
+          join_time?: string | null
+          leave_time?: string | null
+          name?: string | null
+          user_email?: string | null
+        }
+        Update: {
+          duration?: string | null
+          join_time?: string | null
+          leave_time?: string | null
+          name?: string | null
+          user_email?: string | null
+        }
+        Relationships: []
+      }
+      tbl_all_ai_agent_leads: {
+        Row: {
+          "Affiliate email": string | null
+          "Affiliate name": string | null
+          "Country Code": number | null
+          email: string
+          "Last transaction date": string | null
+          name: string | null
+          "Payment cycle": string | null
+          phone: number | null
+          Service: string | null
+          "Subscription expiry date": string | null
+        }
+        Insert: {
+          "Affiliate email"?: string | null
+          "Affiliate name"?: string | null
+          "Country Code"?: number | null
+          email: string
+          "Last transaction date"?: string | null
+          name?: string | null
+          "Payment cycle"?: string | null
+          phone?: number | null
+          Service?: string | null
+          "Subscription expiry date"?: string | null
+        }
+        Update: {
+          "Affiliate email"?: string | null
+          "Affiliate name"?: string | null
+          "Country Code"?: number | null
+          email?: string
+          "Last transaction date"?: string | null
+          name?: string | null
+          "Payment cycle"?: string | null
+          phone?: number | null
+          Service?: string | null
+          "Subscription expiry date"?: string | null
         }
         Relationships: []
       }
@@ -130,6 +253,15 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      match_aiagentdomination_faq_google: {
+        Args: { filter?: Json; match_count?: number; query_embedding: string }
+        Returns: {
+          content: string
+          id: number
+          metadata: Json
+          similarity: number
+        }[]
+      }
       match_documents: {
         Args: { filter?: Json; match_count?: number; query_embedding: string }
         Returns: {
